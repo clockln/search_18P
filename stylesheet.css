@@ -1,0 +1,133 @@
+*{
+  font-family: 'M PLUS Rounded 1c';
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'M PLUS Rounded 1c',
+    "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    "BIZ UDPGothic",
+    Meiryo,
+    sans-serif;
+    position: relative;
+}
+
+img{
+  white-space: pre;
+  border: 2px solid;
+  vertical-align: middle;
+}
+
+p{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+#header_bar{
+  display: flex;
+  position: fixed;
+  margin-top: 0;
+  border-bottom: 1px solid;
+  height: 40px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+#menu{
+  background: #0bd;
+  position: absolute;
+  z-index: 1;
+  top: 3.125rem;
+  right: 0;
+  overflow-x: hidden;
+  text-align: center;
+  width: 0; 
+}
+
+.menu_open{
+  width: 100%;
+}
+
+#menubutton_open{
+  width: 40px;
+  height: 100%;
+  font-size: 2em;
+  margin-top: 4px;
+}
+
+#display_area{
+  resize: none;
+  width: calc(100% - 40px);
+  height: 95%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#counter1{
+  resize: none;
+  width: 20%;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+#counter2{
+  resize: none;
+  width: 20%;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#maincontainer{
+  padding-left: 5px;
+  padding-top: 50px;
+}
+
+.test0{
+  border-color: red;
+}
+.test1{
+  border-color: pink;
+}
+.test2{
+  border-color: purple;
+}
+
+.EXH{
+  border-color: tomato;
+}
+.INF{
+  border-color: purple;
+}
+.GRV{
+  border-color: orange;
+}
+.HVN{
+  border-color: cyan;
+}
+.VVD{
+  border-color: pink;
+}
+.MXM{
+  border-color: azure;
+}
+.other{
+  border-color: black;
+}
+
+.EXHQ,.INFQ,.GRVQ,.HVNQ,.VVDQ,.MXMQ{
+  visibility: hidden;
+}
+
+.opa1{
+  opacity: 50%;
+}
+
+.opa2{
+  opacity: 20%;
+}
